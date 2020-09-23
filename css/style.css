@@ -219,3 +219,20 @@ footer a:hover{
 .design-archives a:hover{
     text-decoration-line: underline;
 }
+.zen-resources li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    list-style-type: none;
+    background-image: url("../img/bamboo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:     cover;  
+    background-color: rgba(41, 109, 41, 0.61);
+    height: 160px;
+    position: relative;
+    top: -52px;
+    column-count: 2;
+    padding-inline-start: 0px;
+    text-decoration-line: underline;
+}
