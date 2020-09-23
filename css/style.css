@@ -219,20 +219,31 @@ footer a:hover{
 .design-archives a:hover{
     text-decoration-line: underline;
 }
-.zen-resources li{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.zen-resources>ul>li {
+    float: left;
+    width: 50%;
+    padding: 10px 0;
     text-align: center;
     list-style-type: none;
-    background-image: url("../img/bamboo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:     cover;  
-    background-color: rgba(41, 109, 41, 0.61);
-    height: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    
+}
+.zen-resources ul {
+    /* text-decoration: none;
+    color: #F5F0E3; */
+    padding: 0;
+    overflow: auto;
+}
+.zen-resources {
+    background-image: url(../img/bamboo.png);
+    background-color: rgb(121, 158, 126);
+    width: 100%;
     position: relative;
-    top: -52px;
-    column-count: 2;
-    padding-inline-start: 0px;
-    text-decoration-line: underline;
+    top: -72px;
+}
+.zen-resources a {
+    color: #2E484C;
+    text-decoration: none;
 }
